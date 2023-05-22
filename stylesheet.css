@@ -1,69 +1,44 @@
+/* Add styling for the website */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color: #222;
-    color: #fff;
-    padding: 20px;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  
-  nav li {
-    float: left;
-  }
-  
-  nav li a {
-    display: block;
-    color: #fff;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  nav li a:hover {
-    background-color: #444;
-  }
-  
-  main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  section {
-    margin-bottom: 50px;
-  }
-  
-  h2 {
-    font-size: 32px;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  p {
-    font-size: 20px;
-    line-height: 1.5;
-    margin-bottom: 20px;
-  }
-  
-  ul {
-    font-size: 20px;
-    line-height: 1.5;
-    margin-bottom: 20px;
-  }
-  
-  img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+.industry {
+  margin-bottom: 10px;
+}
